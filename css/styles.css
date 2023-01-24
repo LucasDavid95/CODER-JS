@@ -1,0 +1,60 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background: url(../images/1image.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+.box1 {
+    width: 500px;
+    box-sizing: border-box;
+    background: rgb(0, 0, 0);
+    opacity: 0.95;
+    color: azure;
+    align-items: center;
+    margin: auto;
+    padding: 20px;
+    border-radius: 8px;
+    font-size: 20px;
+    font-family: sans-serif;
+    text-align: center;
+}
+
+.btn{
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 20px;
+    padding: 5px 12px;
+}
+
+.currency{
+    padding: 40px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.currency select{
+    padding: 11px 20px 10px 10px;
+    border: 1px solid #dedede;
+    font-size: 16px;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    appearance: none;
+}
+
+.currency input {
+    border: 0;
+    font-size: 30px;
+    text-align: right;
+}
+
+select:focus, input:focus, button:focus{
+    outline: 0;
+}
